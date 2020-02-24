@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,700i,900&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+aside, nav, footer, header, section {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  position: relative;
+  width: 100%;
+  color: #000;
+}
+
+body {
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  font-family: "";
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: "Gilroy";
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+body {
+  background: #f3f3f2;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+.title {
+  display: inline-block;
+  font-weight: 900;
+  font-size: 20px;
+  background-color: #000;
+  color: #fff;
+  padding: 8px;
+}
+
+.header, .portfolio, .about {
+  background-color: #fff;
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 30px 20px;
+}
+
+.header__title {
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+.header__img {
+  width: 100px;
+  -webkit-box-shadow: 5px 5px 10px rgba(110, 245, 255, 0.418);
+          box-shadow: 5px 5px 10px rgba(110, 245, 255, 0.418);
+}
+
+.about span {
+  font-weight: 700;
+}
+
+.info__title, .skills__title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 15px;
+  border-bottom: 3px solid #4ccafc;
+  display: inline-block;
+  padding: 0 0 5px 0;
+}
+
+.info__item, .skills__item {
+  margin-bottom: 10px;
+}
+
+.portfolio a {
+  margin: 10px;
+}
+/*# sourceMappingURL=index.css.map */
