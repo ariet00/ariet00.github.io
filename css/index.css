@@ -135,6 +135,7 @@ body {
 }
 
 .portfolio a {
+  display: inline-block;
   margin: 10px;
 }
 /*# sourceMappingURL=index.css.map */
